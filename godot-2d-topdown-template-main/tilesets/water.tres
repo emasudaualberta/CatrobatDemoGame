@@ -1,0 +1,16 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://cobm41gga3fya"]
+
+[ext_resource type="Texture2D" uid="uid://biskvey02fhbt" path="res://tilesets/watersprite.png" id="1_xmop3"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qrvyx"]
+texture = ExtResource("1_xmop3")
+margins = Vector2i(2, 2)
+texture_region_size = Vector2i(10, 10)
+0:0/0 = 0
+2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.10046, -4.81392, 4.35545, -4.41276, 4.52737, 4.52737, -4.81392, 5.15777)
+
+[resource]
+tile_size = Vector2i(6, 6)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_qrvyx")

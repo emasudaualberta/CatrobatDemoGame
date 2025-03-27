@@ -1,6 +1,6 @@
 class_name StartScreen extends Control
 
-@export_file("*.tscn") var start_level = "" ## The level from which the game starts when starting a new game.
+@export_file("*.tscn") var start_level = "SharkLevel" ## The level from which the game starts when starting a new game.
 
 var user_prefs: UserPrefs
 
